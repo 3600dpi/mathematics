@@ -1,0 +1,48 @@
+﻿div#messages {
+    border: 1px solid #CCD1D9;
+    height: 400px;
+    overflow-x: none;
+    overflow-y: auto;
+}
+#left {
+    padding-right: 60px;
+    padding-bottom: 5px;
+}
+
+div#marginTop {
+    margin-top: 20px;
+}
+
+div#room {
+    border: 1px solid  green;
+    height: 300px;
+    width: 150px;
+    overflow-x: none;
+    overflow-y: auto;
+}
+
+/*Дизайн скролла*/
+::-webkit-scrollbar{
+    width:12px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
